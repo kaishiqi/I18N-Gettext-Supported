@@ -5,7 +5,7 @@ I18N Gettext C++ Supported
 However, here's supported classes working on parse binary .mo (Machine Object) files only.
 So, the supported classes is lightweight, free, easy to use. And It uses C++.
 It works on iOS, Android, OS X, Windows and Linux. And cocos2d-x supported.
-Finally, recommended use [Poedit][2] to compiled with into binary .mo files. (It is also a multiple platforms)
+Finally, it is recommended to use [Poedit][2] to compiled with into binary .mo files. (It is also a multiple platforms)
 
 
 
@@ -75,7 +75,7 @@ I18nUtils::getInstance()->addMO(moData.getBytes(), [](int){return 0;}, 1);
 --------------------
 ### Presetting
 1. Download [Poedit][2], install and open it.
-2. Fitst, click `File – Preferences`, fill identity info.
+2. First, click `File – Preferences`, fill identity info.
 3. Switch to `Editor` tab, select `Automatically compile .mo file on save` and `Show summary after catalog update`.
 
 ### New File
@@ -108,7 +108,7 @@ I18nUtils::getInstance()->addMO(moData.getBytes(), [](int){return 0;}, 1);
 1. First, use the keywords in the source file wrap string need to be translated.
 2. Open .po file, click on the Poedit main UI of `Update` button to parsing keywords in the source file.
 3. Translation the string and save, automatically compile .mo file on save.
-4. Load the .mo file in you project to used.
+4. Load the .mo file in you project to be used. 
 
 
 
