@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\i18n">
+      <UniqueIdentifier>{540a5438-19e7-45bd-80fd-94cd687b2676}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\de.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\de.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\fr.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\fr.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ja.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ja.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ko.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ko.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ru.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\ru.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\zh_Hans.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\zh_Hans.po">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\zh_Hant.mo">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\zh_Hant.po">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="i18n\Entry.cpp">
+      <Filter>src\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\I18nUtils.cpp">
+      <Filter>src\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\MO.cpp">
+      <Filter>src\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="i18n\Entry.h">
+      <Filter>src\i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\I18nDefine.h">
+      <Filter>src\i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\I18nUtils.h">
+      <Filter>src\i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\MO.h">
+      <Filter>src\i18n</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
