@@ -5,7 +5,7 @@ I18N Gettext C++ Supported
 However, here's supported classes working on parse binary .mo (Machine Object) files only.
 So, the supported classes is lightweight, free, easy to use. And It uses C++.
 It works on iOS, Android, OS X, Windows and Linux. And cocos2d-x supported.
-Finally, it is recommended to use [Poedit][2] to compiled with into binary .mo files. (It is also a multiple platforms)
+Finally, it is recommended to use [Poedit][2] to compile with into binary .mo files. (It is also a multi-platform)
 
 
 
