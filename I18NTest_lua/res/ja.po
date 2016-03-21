@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: I18N Test 1.0\n"
+"POT-Creation-Date: 2014-08-16 22:28+0800\n"
+"PO-Revision-Date: 2014-08-16 22:51+0800\n"
+"Last-Translator: kaishiqi <kaishiqi@iclound.com>\n"
+"Language-Team: kaishiqi <kaishiqi@icloud.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: main.cpp:35 main.cpp:168 main.cpp:169 main.cpp:170 main.cpp:171
+#: main.cpp:172 main.cpp:176 main.cpp:177 main.cpp:178 main.cpp:179
+#: main.cpp:180
+msgid "Hello world!"
+msgstr "こんにちは、世界！"
+
+#: main.cpp:38
+msgctxt "A post."
+msgid "post"
+msgstr "ポスト"
+
+#: main.cpp:39
+msgctxt "To post."
+msgid "post"
+msgstr "発表"
+
+#: main.cpp:42 main.cpp:43
+msgid "There is a comment."
+msgid_plural "There are comments."
+msgstr[0] "コメントがあります。"
+
+#: main.cpp:46
+msgctxt "male"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "このリンゴは彼らに属している。"
+
+#: main.cpp:47
+msgctxt "female"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "このリンゴはそれらに属している。"
+
+#: main.cpp:48
+msgctxt "animal"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "このリンゴは彼らに属している。"
+
+#: main.cpp:52
+msgid "hero"
+msgid_plural "heroes"
+msgstr[0] "ヒーロー"
+
+#: main.cpp:53
+msgid "book"
+msgid_plural "books"
+msgstr[0] "本"
+
+#: main.cpp:54
+msgid "child"
+msgid_plural "children"
+msgstr[0] "子供"
+
+#: main.cpp:55
+msgid "knife"
+msgid_plural "knives"
+msgstr[0] "ナイフ"
+
+#: main.cpp:56
+msgid "mouse"
+msgid_plural "mice"
+msgstr[0] "ネズミ"
+
+#: main.cpp:57
+msgctxt "male"
+msgid "he"
+msgid_plural "they"
+msgstr[0] "彼"
+
+#: main.cpp:58
+msgctxt "female"
+msgid "she"
+msgid_plural "they"
+msgstr[0] "彼女"
+
+#: main.cpp:59
+msgctxt "object"
+msgid "it"
+msgid_plural "they"
+msgstr[0] "それ"
+
+#: main.cpp:70
+#, c-format
+msgid "\ti=%d1 is %8s2: "
+msgstr "\ti=%d1 は %3s2: "
+
+#: main.cpp:70 main.cpp:72
+msgid "singular"
+msgstr "単数形"
+
+#: main.cpp:70 main.cpp:72
+msgid "plural"
+msgstr "複雑な"
+
+#: main.cpp:72
+#, c-format
+msgid "\ti=%d is %8s: "
+msgstr "\ti=%d は %3s: "
+
+#: main.cpp:78 main.cpp:79 main.cpp:80
+#, c-format
+msgid "You have chosen the %s1 hat."
+msgstr "あなたは%s1帽子を選択しました。 "
+
+#: main.cpp:78
+msgid "red"
+msgstr "赤い"
+
+#: main.cpp:79
+msgid "blue"
+msgstr "青い"
+
+#: main.cpp:80
+msgid "yellow"
+msgstr "黄色"
+
+#: main.cpp:84
+#, c-format
+msgid "Hi %s1! Welcome to %s1's city."
+msgstr "うん、%s1です!ようこそ、%s1の都市となった。"
+
+#: main.cpp:95
+#, c-format
+msgid "There are birds %s1 in the %s2."
+msgstr "鳥が%s2に%s1。"
+
+#: main.cpp:95
+msgid "singing"
+msgstr "歌う"
+
+#: main.cpp:95
+msgid "tree"
+msgstr "木"

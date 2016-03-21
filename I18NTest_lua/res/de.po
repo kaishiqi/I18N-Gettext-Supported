@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: I18N Test 1.0\n"
+"POT-Creation-Date: 2014-08-16 22:28+0800\n"
+"PO-Revision-Date: 2014-08-16 22:42+0800\n"
+"Last-Translator: kaishiqi <kaishiqi@iclound.com>\n"
+"Language-Team: kaishiqi <kaishiqi@icloud.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: main.cpp:35 main.cpp:168 main.cpp:169 main.cpp:170 main.cpp:171
+#: main.cpp:172 main.cpp:176 main.cpp:177 main.cpp:178 main.cpp:179
+#: main.cpp:180
+msgid "Hello world!"
+msgstr "Hallo welt!"
+
+#: main.cpp:38
+msgctxt "A post."
+msgid "post"
+msgstr "Post"
+
+#: main.cpp:39
+msgctxt "To post."
+msgid "post"
+msgstr "Post"
+
+#: main.cpp:42 main.cpp:43
+msgid "There is a comment."
+msgid_plural "There are comments."
+msgstr[0] "Es ist ein Kommentar."
+msgstr[1] "Es gibt Kommentare."
+
+#: main.cpp:46
+msgctxt "male"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "Dieser Apfel gehört zu ihnen."
+msgstr[1] "Diese Äpfel gehören zu ihnen."
+
+#: main.cpp:47
+msgctxt "female"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "Dieser Apfel gehört zu ihnen."
+msgstr[1] "Diese Äpfel gehören zu ihnen."
+
+#: main.cpp:48
+msgctxt "animal"
+msgid "This apple belongs to them."
+msgid_plural "These apples belong to them."
+msgstr[0] "Dieser Apfel gehört zu ihnen."
+msgstr[1] "Diese Äpfel gehören zu ihnen."
+
+#: main.cpp:52
+msgid "hero"
+msgid_plural "heroes"
+msgstr[0] "Held"
+msgstr[1] "Helden"
+
+#: main.cpp:53
+msgid "book"
+msgid_plural "books"
+msgstr[0] "Buch"
+msgstr[1] "Bücher"
+
+#: main.cpp:54
+msgid "child"
+msgid_plural "children"
+msgstr[0] "Kind"
+msgstr[1] "Kinder"
+
+#: main.cpp:55
+msgid "knife"
+msgid_plural "knives"
+msgstr[0] "Messer"
+msgstr[1] "Messer"
+
+#: main.cpp:56
+msgid "mouse"
+msgid_plural "mice"
+msgstr[0] "Maus"
+msgstr[1] "Mäuse"
+
+#: main.cpp:57
+msgctxt "male"
+msgid "he"
+msgid_plural "they"
+msgstr[0] "er"
+msgstr[1] "sie"
+
+#: main.cpp:58
+msgctxt "female"
+msgid "she"
+msgid_plural "they"
+msgstr[0] "sie"
+msgstr[1] "sie"
+
+#: main.cpp:59
+msgctxt "object"
+msgid "it"
+msgid_plural "they"
+msgstr[0] "es"
+msgstr[1] "sie"
+
+#: main.cpp:70
+#, c-format
+msgid "\ti=%d1 is %8s2: "
+msgstr "\ti=%d1 ist %8s2: "
+
+#: main.cpp:70 main.cpp:72
+msgid "singular"
+msgstr "Singular"
+
+#: main.cpp:70 main.cpp:72
+msgid "plural"
+msgstr "Plural"
+
+#: main.cpp:72
+#, c-format
+msgid "\ti=%d is %8s: "
+msgstr "\ti=%d ist %8s: "
+
+#: main.cpp:78 main.cpp:79 main.cpp:80
+#, c-format
+msgid "You have chosen the %s1 hat."
+msgstr "Sie haben den Hut %s1 gewählt."
+
+#: main.cpp:78
+msgid "red"
+msgstr "rot"
+
+#: main.cpp:79
+msgid "blue"
+msgstr "blau"
+
+#: main.cpp:80
+msgid "yellow"
+msgstr "gelb"
+
+#: main.cpp:84
+#, c-format
+msgid "Hi %s1! Welcome to %s1's city."
+msgstr "Hallo %s1! Willkommen bei %s1 die Stadt."
+
+#: main.cpp:95
+#, c-format
+msgid "There are birds %s1 in the %s2."
+msgstr "Es gibt Vögel %s1 in der %s2."
+
+#: main.cpp:95
+msgid "singing"
+msgstr "Gesang"
+
+#: main.cpp:95
+msgid "tree"
+msgstr "Baum"
