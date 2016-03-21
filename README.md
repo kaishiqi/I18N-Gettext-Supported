@@ -1,4 +1,4 @@
-I18N Gettext C++ Supported
+I18N Gettext C++ and Lua Supported
 ==========================
 
 [Gettext][1] is an internationalization and localization (i18n) system, commonly used for writing multilingual programs.
@@ -12,7 +12,7 @@ Finally, it is recommended to use [Poedit][2] to compile with into binary .mo fi
 #Usage Tests
 --------------------
 
-* precache test function 
+* precache test function
 ```
 void output(std::string str) {
     std::cout << str << std::endl;
@@ -29,7 +29,7 @@ output(__("Hello world!"));
 output(_x("post", "A post."));
 output(_x("post", "To post."));
 ```
-   
+
 * plural text
 ```
 output(_n("There is a comment.", "There are comments.", 1));
@@ -108,7 +108,7 @@ I18nUtils::getInstance()->addMO(moData.getBytes(), [](int){return 0;}, 1);
 1. First, use the keywords in the source file wrap string need to be translated.
 2. Open .po file, click on the Poedit main UI of `Update` button to parsing keywords in the source file.
 3. Translation the string and save, automatically compile .mo file on save.
-4. Load the .mo file in you project to be used. 
+4. Load the .mo file in you project to be used.
 
 
 
