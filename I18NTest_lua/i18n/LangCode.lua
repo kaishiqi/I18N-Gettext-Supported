@@ -52,8 +52,8 @@ local LanguageCode = {
 	Uzbek               = 'uz',
 	Vietnamese          = 'vi',
 	Chinese             = 'zh',
-	Chinese_Simplified  = 'zh_Hans',
-	Chinese_Traditional = 'zh_Hant'
+	Chinese_Simplified  = 'zh-Hans',
+	Chinese_Traditional = 'zh-Hant'
 }
 
 return LanguageCode
