@@ -7,7 +7,11 @@ i18n = i18n or {}
 
 
 -- require language code defines
-i18n.langCode = require 'i18n.LangCode'
+i18n.langMap = require 'i18n.LangCode'
+for langCode, define in pairs(i18n.langMap) do
+	local shortKey = string.gsub(langCode, '-', '_')
+	i18n[shortKey] = langCode
+end
 
 
 -- require I18nUtils
