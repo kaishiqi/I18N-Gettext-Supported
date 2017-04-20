@@ -58,5 +58,5 @@ end
 
 
 function t_nooped(noopEntry, number, domain)
-	return i18n.i18nUtils.translateNoop(noopEntry, count, domain)
+	return i18n.i18nUtils.translateNoop(noopEntry, number, domain)
 end
