@@ -132,9 +132,9 @@ end
 function MoParser:loadMoFile_(filePath)
     local moBytes  = nil
 
-    if FTUtils and FTUtils.getFileDataWithoutDec then
+    if cc and cc.FileUtils then
         -- use cocos2d-x cc.FileUtils, cross-platform
-        moBytes = FTUtils:getFileDataWithoutDec(filePath)
+        moBytes = cc.FileUtils:getInstance():getDataFromFile(filePath)
 
     else
         -- use lua io, cannot use in Android
