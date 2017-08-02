@@ -7,8 +7,8 @@ local gtab -- Place to save glogals
 
 if cc then
 	gtab = cc.exports -- For cocos2d-x
-elseif tonumber(_VERSION:sub(5))>=5.2 then -- For lua 5.2 and higher
-	gtab = _ENV
+elseif tonumber(_VERSION:sub(5))>=5.2 then
+	gtab = _ENV -- For lua 5.2 and higher
 else
 	gtab = _G -- For other cases
 end
