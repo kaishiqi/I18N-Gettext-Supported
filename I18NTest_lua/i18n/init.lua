@@ -3,7 +3,17 @@
  * descpt : create on 2016-03-18
 ]]
 
-i18n = i18n or {}
+local gtab -- Place to save glogals
+
+if cc then
+	gtab = cc.exports -- For cocos2d-x
+elseif tonumber(_VERSION:sub(5))>=5.2 then
+	gtab = _ENV -- For lua 5.2 and higher
+else
+	gtab = _G -- For other cases
+end
+
+gtab.i18n = i18n or {}
 
 
 -- require language code defines
@@ -24,39 +34,39 @@ i18n.removeAllMO = i18n.i18nUtils.removeAllMO
 
 
 -- general text
-function __(text, domain)
+function gtab.__(text, domain)
     return i18n.i18nUtils.gettext(text, domain)
 end
 
 
 -- context text
-function _x(text, context, domain)
+function gtab._x(text, context, domain)
 	return i18n.i18nUtils.xgettext(text, context, domain)
 end
 
 
 -- plural text
-function _n(singular, plural, number, domain)
+function gtab._n(singular, plural, number, domain)
 	return i18n.i18nUtils.ngettext(singular, plural, number, domain)
 end
 
 
 -- plural + context
-function _nx(singular, plural, number, context, domain)
+function gtab._nx(singular, plural, number, context, domain)
 	return i18n.i18nUtils.nxgettext(singular, plural, number, context, domain)
 end
 
 
-function _n_noop(singular, plural, domain)
+function gtab._n_noop(singular, plural, domain)
 	return i18n.i18nUtils.ngettextNoop(singular, plural, domain)
 end
 
 
-function _nx_noop(singular, plural, context, domain)
+function gtab._nx_noop(singular, plural, context, domain)
 	return i18n.i18nUtils.nxgettextNoop(singular, plural, context, domain)
 end
 
 
-function t_nooped(noopEntry, number, domain)
+function gtab.t_nooped(noopEntry, number, domain)
 	return i18n.i18nUtils.translateNoop(noopEntry, number, domain)
 end
